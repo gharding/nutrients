@@ -53,10 +53,15 @@
 			          <ul class="dropdown-menu">
 			            <li><a href="#">All Products</a></li>
 			            <li class="divider"></li>
-			            <li><a href="#">GrOw Range</a></li>
-			            <li><a href="#">Pro Range</a></li>
+			            <li><a href="#">Natural Selections</a></li>
+			            <li><a href="#">GrOw</a></li>
+			            <li><a href="#">Pro</a></li>
 			          </ul>
 			        </li>
+			        <li><a href="#">Lectures</a></li>
+			        <li><a href="#">Testimonials</a></li>
+			        <li><a href="#">Blog</a></li>
+			        <li><a href="#"></a></li>
 			        <form class="navbar-form navbar-right" role="search">
 				        <div class="form-group">
 				          <input type="text" class="form-control" placeholder="Search">
