@@ -1,5 +1,10 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif !important;
+	-o-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	-ms-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
 }
 
 .slider{
@@ -9,6 +14,22 @@ body {
 	text-align: center;
 	/*vertical-align: middle;*/
 	margin: 0 auto;
+}
+
+a{
+	-o-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	-ms-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+.navbar-brand{
+	font-style: oblique;
+}
+
+.navbar-brand:hover{
+	color: #57C900 !important;
 }
 
 .carousel-inner{
@@ -22,6 +43,25 @@ body {
 	background-color: #515151;
 	padding-top: 3em;
 	color: #dedede;
+}
+
+#footer a h1{
+	color: #dedede;
+	font-style: oblique;
+	-o-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	-ms-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+
+}
+
+#footer a{
+	text-decoration: none;
+}
+
+#footer a h1:hover{
+	color: #57C900;
 }
 /*.slider h1{
 	margin: 0 auto;
