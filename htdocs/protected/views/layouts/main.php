@@ -80,15 +80,15 @@
 					'links'=>$this->breadcrumbs,
 				)); ?><!-- breadcrumbs -->
 			<?php endif?>
-			<?php echo $content; ?>
 		</div>
+			<?php echo $content; ?>
 		<!-- /Content -->
 	<div class="clear"></div>
 	<div id="footer">
 		<div class="container">
 			<div class="row">
 			<div class="col-sm-4">
-					<a href=""><h1><?php echo Yii::app()->name; ?> <span class="glyphicon glyphicon-leaf"></span></h1></a>
+					<h1><?php echo Yii::app()->name; ?> <span class="glyphicon glyphicon-leaf"></span></h1>
 					Copyright &copy; <?php echo date('Y'); ?> by <?php echo Yii::app()->name; ?>.<br/>
 					All Rights Reserved.<br/>
 			</div>

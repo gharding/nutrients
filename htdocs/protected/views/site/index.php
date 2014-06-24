@@ -2,40 +2,40 @@
 /* @var $this SiteController */
 ?>
 <!-- Intro Content -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	<!-- Indicators -->
+	<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<!-- Indicators
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	</ol>
 
-	<!-- Wrapper for slides -->
+	<!-- Wrapper for slides
 	<div class="carousel-inner">
-		<!-- <div class="container"> -->
+		<!-- <div class="container">
 		<div class="item active">
-		<!-- Content -->
-			<img src="<?php echo Yii::app()->baseUrl; ?>/images/olives.jpg" alt="" />
+		<!-- Content
+			<img src="<?php //echo Yii::app()->baseUrl; ?>/images/olives.jpg" alt="" />
 		<div class="carousel-caption">
 			<h1>SLIDE UNO</h1>
 		</div>
 		</div>
 		<div class="item">
-			<img src="<?php echo Yii::app()->baseUrl; ?>/images/real_plate.jpg" alt="" />
+			<img src="<?php //echo Yii::app()->baseUrl; ?>/images/real_plate.jpg" alt="" />
 			<div class="carousel-caption">
-				<!-- ... -->
+				<!-- ...
 			</div>
 		</div>
 		<div class="item">
-			<img src="<?php echo Yii::app()->baseUrl; ?>/images/healthy.jpg" alt="" />
+			<img src="<?php //echo Yii::app()->baseUrl; ?>/images/healthy.jpg" alt="" />
 			<div class="carousel-caption">
-				<!-- ... -->
+				<!-- ...
 			</div>
 		</div>
-		<!-- </div> -->
+		<!-- </div>
 	</div>
 
-	<!-- Controls -->
+	<!-- Controls
 	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left"></span>
 	</a>
@@ -44,21 +44,32 @@
 	</a>
 	</div>
 <!-- /Intro Content -->
+<div class="jumbotron intro">
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-9">
+			<h2>EAT better, WORK better, PLAY better.</h2>
+			<p>
+				Our foods are only made of the finest, freshest, organic ingredients - helping you to get the very best out of life.
+			</p>
+			<p>
+					<a href="#">View our products</a>
+			</p>
+
+		</div>
+	</div>
+</div>
+<div class="container">
 <?php
-$this->pageTitle=Yii::app()->name;
+// echo $this->pageTitle=Yii::app()->name;
+// Content goes here, but what content will be needed?
 ?>
-
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<h1>Eat better, work better, play better.</h1>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<?php
+?>
+</div>
