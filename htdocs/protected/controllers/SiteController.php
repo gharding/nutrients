@@ -31,6 +31,12 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+
+	public function actionLeaf()
+	{
+		$this->render('pages/leaf');
+	}
+
 	public function actionAbout()
 	{
 		$this->render('pages/about');
