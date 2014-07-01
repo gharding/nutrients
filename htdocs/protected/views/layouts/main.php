@@ -23,6 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->baseUrl."/assets/jquery.scrollTo/jquery.scrollTo.js"; ?>"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
